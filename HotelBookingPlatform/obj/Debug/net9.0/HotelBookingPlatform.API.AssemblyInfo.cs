@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HotelBookingPlatform.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HotelBookingPlatform.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ea4f3858f3e48af74d2ab0c33579f140f7196b3")]
-[assembly: System.Reflection.AssemblyProductAttribute("HotelBookingPlatform.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HotelBookingPlatform.Core")]
+[assembly: System.Reflection.AssemblyProductAttribute("HotelBookingPlatform.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HotelBookingPlatform.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
