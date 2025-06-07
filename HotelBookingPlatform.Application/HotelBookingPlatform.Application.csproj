@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBookingPlatform.Core\HotelBookingPlatform.Core.csproj" />
+    <ProjectReference Include="..\HotelBookingPlatform.Infrastructure\HotelBookingPlatform.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

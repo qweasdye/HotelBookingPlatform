@@ -32,7 +32,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj": {
+                "projectPath": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj"
+              },
+              "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj": {
+                "projectPath": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,6 +57,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -191,9 +204,15 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
-            "Npgsql": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

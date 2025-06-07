@@ -1,4 +1,6 @@
-﻿namespace HotelBookingPlatform.Core.Domain.ValueObjects
+﻿using HotelBookingPlatform.Core.Domain.Entities;
+
+namespace HotelBookingPlatform.Core.Domain.ValueObjects
 {
     public class Address
     {
@@ -6,5 +8,8 @@
         public string City { get; set; }
         public string Street { get; set; }
         public string PostalCode { get; set; }
+
+        public int HotelId { get; set; }
+        public Hotel Hotel { get; set; }
     }
 }
