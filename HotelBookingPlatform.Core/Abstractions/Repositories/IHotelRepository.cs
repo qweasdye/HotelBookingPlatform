@@ -4,10 +4,10 @@ namespace HotelBookingPlatform.Core.Abstractions.Repositories
 {
     public interface IHotelRepository
     {
-        Task<Hotel> GetByIdAsync(int id);
+        Task<Hotel> GetHotelByIdAsync(int id);
         Task<List<Hotel>> SearchHotelsAsync(string query);
-        Task AddAsync(Hotel hotel);
-        Task UpdateAsync(Hotel hotel);
-        Task DeleteAsync(int id);
+        Task AddHotelAsync(Hotel hotel);
+        Task UpdateHotelAsync(Hotel hotel);
+        Task DeleteHotelAsync(int id);
     }
 }
