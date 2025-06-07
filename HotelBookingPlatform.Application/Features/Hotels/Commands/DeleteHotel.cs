@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HotelBookingPlatform.Core.Abstractions.Repositories;
+using MediatR;
 
-namespace HotelBookingPlatform.Application.Features.Hotels.Commands
+namespace HotelBookingPlatform.Core.Hotels.Commands
 {
-    internal class DeleteHotel
+    public class DeleteHotel : IRequest
     {
+        public int Id { get; set; }
+    }
+
+    public class DeleteHotelHandler : IRequestHandler<DeleteHotel>
+    {
+        private readonly IHotelRepository _hotelRepository;
+
+        public DeleteHotelHandler(IHotelRepository hotelRepository)
+        {
+            _hotelRepository = hotelRepository;
+        }
+
+        public async Task Handle(DeleteHotel request, CancellationToken cancellationToken)
+        {
+            await _hotelRepository.DeleteHotelAsync(request.Id);
+        }
     }
 }

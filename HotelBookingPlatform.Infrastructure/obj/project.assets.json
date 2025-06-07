@@ -921,6 +921,9 @@
       "HotelBookingPlatform.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.5"
+        },
         "compile": {
           "bin/placeholder/HotelBookingPlatform.Core.dll": {}
         },

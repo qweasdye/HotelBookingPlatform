@@ -1,12 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HotelBookingPlatform.Core.Abstractions.Repositories;
+using HotelBookingPlatform.Core.Domain.Entities;
+using MediatR;
 
-namespace HotelBookingPlatform.Application.Features.Hotels.Queries
+namespace HotelBookingPlatform.Core.Hotels.Queries
 {
-    internal class SearchHotels
+    public class SearchHotels : IRequest<List<Hotel>>
     {
+        public string Query { get; set; }
+    }
+
+    public class SearchHotelsHandler : IRequestHandler<SearchHotels, List<Hotel>>
+    {
+        private readonly IHotelRepository _hotelRepository;
+
+        public SearchHotelsHandler(IHotelRepository hotelRepository)
+        {
+            _hotelRepository = hotelRepository;
+        }
+
+        public async Task<List<Hotel>> Handle(SearchHotels request, CancellationToken cancellationToken)
+        {
+            return await _hotelRepository.SearchHotelsAsync(request.Query);
+        }
     }
 }

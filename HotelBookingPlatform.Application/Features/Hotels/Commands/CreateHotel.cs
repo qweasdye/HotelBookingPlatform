@@ -1,26 +1,26 @@
-﻿using MediatR;
+﻿using HotelBookingPlatform.Core.Abstractions.Repositories;
 using HotelBookingPlatform.Core.Domain.Entities;
 using HotelBookingPlatform.Core.Domain.ValueObjects;
-using HotelBookingPlatform.Infrastructure.Persistence.Repositories;
+using MediatR;
 
-namespace HotelBookingPlatform.Application.Features.Hotels.Commands
+namespace HotelBookingPlatform.Core.Hotels.Commands
 {
     public class CreateHotel : IRequest<int>
     {
         public string Name { get; set; }
         public string Description { get; set; }
         public Address Address { get; set; }
-        public List<Room> Rooms { get; set; } = new();
     }
 
     public class CreateHotelHandler : IRequestHandler<CreateHotel, int>
     {
-        private readonly HotelRepository _hotelRepository;
+        private readonly IHotelRepository _hotelRepository;
 
-        public CreateHotelHandler(HotelRepository hotelRepository)
+        public CreateHotelHandler(IHotelRepository hotelRepository)
         {
             _hotelRepository = hotelRepository;
         }
+
         public async Task<int> Handle(CreateHotel request, CancellationToken cancellationToken)
         {
             var hotel = new Hotel
@@ -28,10 +28,12 @@ namespace HotelBookingPlatform.Application.Features.Hotels.Commands
                 Name = request.Name,
                 Description = request.Description,
                 Address = request.Address,
-                Rooms = request.Rooms
+                Rooms = new List<Room>()
             };
 
             await _hotelRepository.AddHotelAsync(hotel);
+
+
             return hotel.Id;
         }
     }

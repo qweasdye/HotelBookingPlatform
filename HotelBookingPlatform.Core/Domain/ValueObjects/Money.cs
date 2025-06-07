@@ -1,5 +1,8 @@
-﻿namespace HotelBookingPlatform.Core.Domain.ValueObjects
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace HotelBookingPlatform.Core.Domain.ValueObjects
 {
+    [Owned]
     public class Money
     {
         public decimal Amount { get; set; }
