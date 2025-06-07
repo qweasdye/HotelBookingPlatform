@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/[controller]")]
-public class HotelsController : ControllerBase // FIX ALL
+public class HotelsController : ControllerBase 
 {
     private readonly IMediator _mediator;
 
@@ -38,7 +38,7 @@ public class HotelsController : ControllerBase // FIX ALL
     {
         if (!ModelState.IsValid)
         {
-            return BadRequest(ModelState); // Вернёт конкретные ошибки
+            return BadRequest(ModelState); // Исправлено с Node1State на ModelState
         }
 
         var id = await _mediator.Send(command);

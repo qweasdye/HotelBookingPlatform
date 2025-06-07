@@ -1,5 +1,4 @@
 ﻿using HotelBookingPlatform.Core.Domain.Entities;
-using System.ComponentModel.DataAnnotations;
 
 namespace HotelBookingPlatform.Core.Domain.ValueObjects
 {

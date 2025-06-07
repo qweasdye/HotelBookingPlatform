@@ -26,6 +26,14 @@ namespace HotelBookingPlatform.Core.Data.Configurations
             builder.Property(h => h.Description)
                   .HasMaxLength(1000);
 
+            builder.HasOne(h => h.Address)
+               .WithOne(a => a.Hotel)
+               .HasForeignKey<Address>(a => a.HotelId);
+
+            builder.HasMany(h => h.Rooms)
+                   .WithOne(r => r.Hotel)
+                   .HasForeignKey(r => r.HotelId);
+
             // Связь 1-to-1 с Address (каскадное удаление)
             builder.HasOne(h => h.Address)
                   .WithOne(a => a.Hotel)

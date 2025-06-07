@@ -1,40 +1,56 @@
-﻿using HotelBookingPlatform.Core.Abstractions.Repositories;
-using HotelBookingPlatform.Core.Domain.Entities;
+﻿using HotelBookingPlatform.Core.Domain.Entities;
 using HotelBookingPlatform.Core.Domain.ValueObjects;
+using HotelBookingPlatform.Infrastructure.Persistence;
 using MediatR;
 
 namespace HotelBookingPlatform.Core.Hotels.Commands
 {
-    public class CreateHotel : IRequest<int>
+    public class CreateHotel : IRequest<int> // Возвращает ID созданного отеля
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public Address Address { get; set; }
-    }
+        public AddressDto Address { get; set; } // Вложенный DTO для адреса
 
-    public class CreateHotelHandler : IRequestHandler<CreateHotel, int>
-    {
-        private readonly IHotelRepository _hotelRepository;
-
-        public CreateHotelHandler(IHotelRepository hotelRepository)
+        public class AddressDto
         {
-            _hotelRepository = hotelRepository;
+            public string Street { get; set; }
+            public string City { get; set; }
+            public string Country { get; set; }
         }
-
-        public async Task<int> Handle(CreateHotel request, CancellationToken cancellationToken)
+        public class CreateHotelHandler : IRequestHandler<CreateHotel, int>
         {
-            var hotel = new Hotel
+            private readonly HotelBookingDbContext _context;
+
+            public CreateHotelHandler(HotelBookingDbContext context)
             {
-                Name = request.Name,
-                Description = request.Description,
-                Address = request.Address,
-                Rooms = new List<Room>()
-            };
+                _context = context;
+            }
 
-            await _hotelRepository.AddHotelAsync(hotel);
+            public async Task<int> Handle(CreateHotel request, CancellationToken cancellationToken)
+            {
+                // Создаем новый отель
+                var hotel = new Hotel
+                {
+                    Name = request.Name,
+                    Description = request.Description,
+                    Address = new Address
+                    {
+                        Street = request.Address.Street,
+                        City = request.Address.City,
+                        Country = request.Address.Country
+                    },
+                    Rooms = new List<Room>() // Инициализируем пустой список комнат
+                };
 
+                // Добавляем отель в контекст
+                await _context.Hotels.AddAsync(hotel, cancellationToken);
 
-            return hotel.Id;
+                // Сохраняем изменения в БД
+                await _context.SaveChangesAsync(cancellationToken);
+
+                // Возвращаем ID созданного отеля
+                return hotel.Id;
+            }
         }
     }
 }
