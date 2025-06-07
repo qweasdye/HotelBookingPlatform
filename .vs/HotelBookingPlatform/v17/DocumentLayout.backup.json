@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "E:\\C# pet projects\\HotelBookingPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\abstractions\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\abstractions\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|solutionrelative:hotelbookingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\abstractions\\services\\ipricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\abstractions\\services\\ipricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\abstractions\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\abstractions\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\abstractions\\repositories\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\abstractions\\repositories\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +25,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.application\\features\\bookings\\commands\\createbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|solutionrelative:hotelbookingplatform.application\\features\\bookings\\commands\\createbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|solutionrelative:hotelbookingplatform\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.infrastructure\\persistence\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|solutionrelative:hotelbookingplatform.infrastructure\\persistence\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\abstractions\\services\\ipricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\abstractions\\services\\ipricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.core\\domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471C87D7-6C5D-4B7A-A99E-86340FAAC6FD}|HotelBookingPlatform.Core\\HotelBookingPlatform.Core.csproj|solutionrelative:hotelbookingplatform.core\\domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.infrastructure\\persistence\\configurations\\roomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.infrastructure\\persistence\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|solutionrelative:hotelbookingplatform.infrastructure\\persistence\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.infrastructure\\persistence\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|solutionrelative:hotelbookingplatform.infrastructure\\persistence\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{327D431B-3584-48D7-AD7D-85326F9534DC}|HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.infrastructure\\persistence\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.application\\features\\hotels\\commands\\createhotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|solutionrelative:hotelbookingplatform.application\\features\\hotels\\commands\\createhotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform.application\\features\\bookings\\commands\\createbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032BE9C6-ADBB-4B5C-A848-2B336D872698}|HotelBookingPlatform.Application\\HotelBookingPlatform.Application.csproj|solutionrelative:hotelbookingplatform.application\\features\\bookings\\commands\\createbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|e:\\c# pet projects\\hotelbookingplatform\\hotelbookingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFCBB90A-CE3E-4D58-84A2-B733754758C1}|HotelBookingPlatform\\HotelBookingPlatform.API.csproj|solutionrelative:hotelbookingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -119,6 +123,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "HotelBookingPlatform\\Controllers\\BookingsController.cs",
+              "ToolTip": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "HotelBookingPlatform\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T10:03:02.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BookingStatus.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\Enums\\BookingStatus.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\Enums\\BookingStatus.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "RoomType.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\Enums\\RoomType.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\Enums\\RoomType.cs",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "IPricingService.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Abstractions\\Services\\IPricingService.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Abstractions\\Services\\IPricingService.cs",
@@ -157,20 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IBookingRepository.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Abstractions\\Repositories\\IBookingRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Abstractions\\Repositories\\IBookingRepository.cs",
               "ToolTip": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Abstractions\\Repositories\\IBookingRepository.cs",
               "RelativeToolTip": "HotelBookingPlatform.Core\\Abstractions\\Repositories\\IBookingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T19:49:42.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Money.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\ValueObjects\\Money.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\ValueObjects\\Money.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Address.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\ValueObjects\\Address.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\ValueObjects\\Address.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Booking.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\Entities\\Booking.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\Entities\\Booking.cs",
@@ -209,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Room.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\Entities\\Room.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\Entities\\Room.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "RoomConfiguration.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\RoomConfiguration.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\RoomConfiguration.cs",
@@ -230,11 +247,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\RoomConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:43:14.722Z"
+              "WhenOpened": "2025-06-06T19:43:14.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "HotelConfiguration.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\HotelConfiguration.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\HotelConfiguration.cs",
@@ -242,11 +260,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\Persistence\\Configurations\\HotelConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:43:05.854Z"
+              "WhenOpened": "2025-06-06T19:43:05.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
@@ -254,11 +273,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:42:54.055Z"
+              "WhenOpened": "2025-06-06T19:42:54.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "HotelRepository.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\HotelRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\HotelRepository.cs",
@@ -266,11 +286,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\Persistence\\Repositories\\HotelRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:42:44.482Z"
+              "WhenOpened": "2025-06-06T19:42:44.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "DbContext.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\Persistence\\DbContext.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\Persistence\\DbContext.cs",
@@ -278,11 +299,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\Persistence\\DbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:41:59.536Z"
+              "WhenOpened": "2025-06-06T19:41:59.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "HotelBookingPlatform.Infrastructure.csproj",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj",
@@ -290,11 +312,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Infrastructure\\HotelBookingPlatform.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-06T19:41:35.261Z"
+              "WhenOpened": "2025-06-06T19:41:35.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "SearchHotels.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\SearchHotels.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\SearchHotels.cs",
@@ -302,11 +325,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\SearchHotels.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:40:06.059Z"
+              "WhenOpened": "2025-06-06T19:40:06.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "GetHotelById.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\GetHotelById.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\GetHotelById.cs",
@@ -314,11 +338,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Application\\Features\\Hotels\\Queries\\GetHotelById.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:39:56.536Z"
+              "WhenOpened": "2025-06-06T19:39:56.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "UpdateHotel.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\UpdateHotel.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\UpdateHotel.cs",
@@ -326,11 +351,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\UpdateHotel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:39:45.484Z"
+              "WhenOpened": "2025-06-06T19:39:45.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CreateHotel.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\CreateHotel.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\CreateHotel.cs",
@@ -338,11 +364,12 @@
               "RelativeToolTip": "HotelBookingPlatform.Application\\Features\\Hotels\\Commands\\CreateHotel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:39:37.276Z"
+              "WhenOpened": "2025-06-06T19:39:37.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "CreateBooking.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Application\\Features\\Bookings\\Commands\\CreateBooking.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Application\\Features\\Bookings\\Commands\\CreateBooking.cs",
@@ -350,7 +377,8 @@
               "RelativeToolTip": "HotelBookingPlatform.Application\\Features\\Bookings\\Commands\\CreateBooking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:39:26.416Z"
+              "WhenOpened": "2025-06-06T19:39:26.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -360,14 +388,14 @@
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Abstractions\\Repositories\\IHotelRepository.cs",
               "ToolTip": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Abstractions\\Repositories\\IHotelRepository.cs",
               "RelativeToolTip": "HotelBookingPlatform.Core\\Abstractions\\Repositories\\IHotelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T19:29:41.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Hotel.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform.Core\\Domain\\Entities\\Hotel.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform.Core\\Domain\\Entities\\Hotel.cs",
@@ -380,15 +408,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform\\Program.cs",
               "RelativeDocumentMoniker": "HotelBookingPlatform\\Program.cs",
               "ToolTip": "E:\\C# pet projects\\HotelBookingPlatform\\HotelBookingPlatform\\Program.cs",
               "RelativeToolTip": "HotelBookingPlatform\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T18:48:44.851Z"
+              "WhenOpened": "2025-06-06T18:48:44.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Eks2T2A5APOrIyUOTsKprK5zeWidEixwmr9plZ0fxV0=",
+  "Source": "HotelBookingPlatform.API",
+  "BasePath": "_content/HotelBookingPlatform.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
