@@ -12,4 +12,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBookingPlatform.Application\HotelBookingPlatform.Application.csproj" />
+    <ProjectReference Include="..\HotelBookingPlatform.Core\HotelBookingPlatform.Core.csproj" />
+    <ProjectReference Include="..\HotelBookingPlatform.Infrastructure\HotelBookingPlatform.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

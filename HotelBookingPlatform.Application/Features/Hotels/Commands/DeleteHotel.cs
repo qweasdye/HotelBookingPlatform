@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelBookingPlatform.Infrastructure.Persistence
+namespace HotelBookingPlatform.Application.Features.Hotels.Commands
 {
-    internal class DbContext
+    internal class DeleteHotel
     {
     }
 }
