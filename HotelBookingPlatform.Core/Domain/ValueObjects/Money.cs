@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HotelBookingPlatform.Core.Domain.ValueObjects
+﻿namespace HotelBookingPlatform.Core.Domain.ValueObjects
 {
-    internal class Money
+    public class Money
     {
+        public decimal Amount { get; set; }
+        public string Currency { get; set; } = "USD";
+        public Money(decimal amount, string currency = "USD")
+        {
+            Amount = amount;
+            Currency = currency;
+        }
     }
 }
