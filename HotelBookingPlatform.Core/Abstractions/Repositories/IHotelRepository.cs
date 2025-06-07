@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HotelBookingPlatform.Core.Domain.Entities;
 
 namespace HotelBookingPlatform.Core.Abstractions.Repositories
 {
-    internal interface IHotelRepository
+    public interface IHotelRepository
     {
+        Task<Hotel> GetByIdAsync(int id);
+        Task<List<Hotel>> SearchHotelsAsync(string query);
+        Task AddAsync(Hotel hotel);
+        Task UpdateAsync(Hotel hotel);
+        Task DeleteAsync(int id);
     }
 }
