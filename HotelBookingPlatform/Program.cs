@@ -30,7 +30,6 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     });
 
-builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

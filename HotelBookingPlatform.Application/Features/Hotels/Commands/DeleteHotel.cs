@@ -1,5 +1,6 @@
 ﻿using HotelBookingPlatform.Core.Abstractions.Repositories;
 using MediatR;
+using OpenQA.Selenium;
 
 namespace HotelBookingPlatform.Core.Hotels.Commands
 {
@@ -19,6 +20,12 @@ namespace HotelBookingPlatform.Core.Hotels.Commands
 
         public async Task Handle(DeleteHotel request, CancellationToken cancellationToken)
         {
+            var hotel = await _hotelRepository.GetHotelByIdAsync(request.Id);
+            if (hotel == null)
+            {
+                throw new NotFoundException($"Hotel with id {request.Id} not found");
+            }
+
             await _hotelRepository.DeleteHotelAsync(request.Id);
         }
     }

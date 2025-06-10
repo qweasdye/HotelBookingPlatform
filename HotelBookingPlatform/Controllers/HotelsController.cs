@@ -16,7 +16,7 @@ public class HotelsController : ControllerBase
     {
         _mediator = mediator;
     }
-    // GET: api/hotels?query=searchTerm
+
     [HttpGet]
     public async Task<ActionResult<List<HotelDto>>> GetHotels([FromQuery] string query = "")
     {
@@ -46,8 +46,7 @@ public class HotelsController : ControllerBase
         return Ok(result);
     }
 
-    // GET: api/hotels/5
-    [HttpGet("{id}")]
+    [HttpGet("{id}")] 
     public async Task<ActionResult<Hotel>> GetById(int id)
     {
         var result = await _mediator.Send(new GetHotelById { Id = id });

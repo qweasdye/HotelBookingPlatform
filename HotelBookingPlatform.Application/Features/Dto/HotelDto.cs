@@ -1,6 +1,4 @@
-﻿using HotelBookingPlatform.Core.Domain.Entities;
-
-namespace HotelBookingPlatform.Application.Features.Dto
+﻿namespace HotelBookingPlatform.Application.Features.Dto
 {
     public class HotelDto
     {

@@ -11,7 +11,7 @@ namespace HotelBookingPlatform.Core.Hotels.Commands
         public string Name { get; set; }
         public string Description { get; set; }
         public AddressDto Address { get; set; } // Вложенный DTO для адреса
-        public List<RoomDto> Rooms { get; set; } = new List<RoomDto>();
+        public List<RoomDto> Rooms { get; set; } = new List<RoomDto>(); // Вложенный DTO для номеров
         public class CreateHotelHandler : IRequestHandler<CreateHotel, int>
         {
             private readonly HotelBookingDbContext _context;

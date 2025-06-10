@@ -14,7 +14,7 @@ namespace HotelBookingPlatform.Core.Data.Configurations
             // Настройка первичного ключа (автоинкремент)
             builder.HasKey(h => h.Id);
             builder.Property(h => h.Id)
-                  .UseIdentityAlwaysColumn()  // Для PostgreSQL (для SQL Server используйте .UseIdentityColumn())
+                  .UseIdentityAlwaysColumn()  // Для PostgreSQL 
                   .ValueGeneratedOnAdd();
 
             // Настройка обязательных свойств
@@ -38,13 +38,13 @@ namespace HotelBookingPlatform.Core.Data.Configurations
             builder.HasOne(h => h.Address)
                   .WithOne(a => a.Hotel)
                   .HasForeignKey<Address>(a => a.HotelId)
-                  .OnDelete(DeleteBehavior.Cascade);
+                  .OnDelete(DeleteBehavior.Cascade); // Каскадное удаление: при удалении отеля автоматически удаляются его адрес и комнаты
 
             // Связь 1-to-Many с Room (каскадное удаление)
             builder.HasMany(h => h.Rooms)
                   .WithOne(r => r.Hotel)
                   .HasForeignKey(r => r.HotelId)
-                  .OnDelete(DeleteBehavior.Cascade);
+                  .OnDelete(DeleteBehavior.Cascade); // Каскадное удаление: при удалении отеля автоматически удаляются его адрес и комнаты
         }
     }
 }
