@@ -4,6 +4,7 @@ using HotelBookingPlatform.Core.Hotels.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using HotelBookingPlatform.Application.Features.Dto;
+using OpenQA.Selenium;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -66,11 +67,26 @@ public class HotelsController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, [FromBody] UpdateHotel command)
+    public async Task<IActionResult> UpdateHotel(int id, [FromBody] UpdateHotel command)
     {
-        if (id != command.Id) return BadRequest();
-        await _mediator.Send(command);
-        return NoContent();
+        try
+        {
+            if (id != command.Id)
+            {
+                return BadRequest("ID in route does not match ID in body");
+            }
+
+            await _mediator.Send(command);
+            return NoContent();
+        }
+        catch (NotFoundException ex)
+        {
+            return NotFound(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+        }
     }
 
     [HttpDelete("{id}")]

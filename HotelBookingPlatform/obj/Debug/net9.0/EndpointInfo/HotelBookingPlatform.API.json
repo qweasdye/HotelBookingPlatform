@@ -460,6 +460,12 @@
           "description": {
             "type": "string",
             "nullable": true
+          },
+          "address": {
+            "$ref": "#/components/schemas/AddressDto"
+          },
+          "rooms": {
+            "$ref": "#/components/schemas/RoomDto"
           }
         },
         "additionalProperties": false

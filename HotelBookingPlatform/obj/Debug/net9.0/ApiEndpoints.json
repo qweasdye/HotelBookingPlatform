@@ -79,7 +79,7 @@
   },
   {
     "ContainingType": "HotelsController",
-    "Method": "Update",
+    "Method": "UpdateHotel",
     "RelativePath": "api/Hotels/{id}",
     "HttpMethod": "PUT",
     "IsController": true,

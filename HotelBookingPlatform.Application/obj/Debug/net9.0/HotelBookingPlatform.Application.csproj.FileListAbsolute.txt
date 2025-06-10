@@ -16,3 +16,6 @@ E:\c# pet projects\hotelbookingplatform\HotelBookingPlatform.Application\obj\Deb
 E:\c# pet projects\hotelbookingplatform\HotelBookingPlatform.Application\obj\Debug\net9.0\refint\HotelBookingPlatform.Application.dll
 E:\c# pet projects\hotelbookingplatform\HotelBookingPlatform.Application\obj\Debug\net9.0\HotelBookingPlatform.Application.pdb
 E:\c# pet projects\hotelbookingplatform\HotelBookingPlatform.Application\obj\Debug\net9.0\ref\HotelBookingPlatform.Application.dll
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform.Application\bin\Debug\net9.0\selenium-manager\linux\selenium-manager
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform.Application\bin\Debug\net9.0\selenium-manager\macos\selenium-manager
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform.Application\bin\Debug\net9.0\selenium-manager\windows\selenium-manager.exe

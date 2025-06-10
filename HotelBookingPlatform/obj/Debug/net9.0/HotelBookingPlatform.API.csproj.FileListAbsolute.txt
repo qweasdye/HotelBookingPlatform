@@ -141,3 +141,7 @@ E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\tr
 E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\selenium-manager\linux\selenium-manager
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\selenium-manager\macos\selenium-manager
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\selenium-manager\windows\selenium-manager.exe
+E:\C# pet projects\HotelBookingPlatform\HotelBookingPlatform\bin\Debug\net9.0\WebDriver.dll
