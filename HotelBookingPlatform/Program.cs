@@ -4,6 +4,7 @@ using HotelBookingPlatform.Core.Hotels.Queries;
 using HotelBookingPlatform.Infrastructure.Persistence;
 using HotelBookingPlatform.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,12 @@ builder.Services.AddMediatR(cfg =>
         typeof(CreateHotel).Assembly            
     );
 });
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();

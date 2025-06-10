@@ -45,9 +45,19 @@ namespace HotelBookingPlatform.Infrastructure.Persistence.Repositories
 
         public async Task<List<Hotel>> SearchHotelsAsync(string query)
         {
-            return await _context.Hotels
-                .Where(h => h.Name.Contains(query) || h.Description.Contains(query))
-                .ToListAsync();
+            var hotelsQuery = _context.Hotels
+                .Include(h => h.Address)  // Добавляем подгрузку адреса
+                .Include(h => h.Rooms)
+                .AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                hotelsQuery = hotelsQuery.Where(h =>
+                    h.Name.Contains(query) ||
+                    (h.Description != null && h.Description.Contains(query)));
+            }
+
+            return await hotelsQuery.ToListAsync();
         }
 
     }

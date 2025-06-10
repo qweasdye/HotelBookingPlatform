@@ -55,7 +55,7 @@ namespace HotelBookingPlatform.Infrastructure.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityAlwaysColumn),
                     HotelId = table.Column<int>(type: "integer", nullable: false),
                     RoomNumber = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
-                    Type = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Type = table.Column<int>(type: "integer", maxLength: 50, nullable: false),
                     PricePerNightAmount = table.Column<decimal>(type: "numeric(18,2)", nullable: false),
                     PricePerNightCurrency = table.Column<string>(type: "character varying(3)", maxLength: 3, nullable: false, defaultValue: "USD"),
                     Capacity = table.Column<int>(type: "integer", nullable: false)

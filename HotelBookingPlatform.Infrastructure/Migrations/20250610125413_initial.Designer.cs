@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HotelBookingPlatform.Infrastructure.Migrations
 {
     [DbContext(typeof(HotelBookingDbContext))]
-    [Migration("20250607172318_initial")]
+    [Migration("20250610125413_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -97,10 +97,9 @@ namespace HotelBookingPlatform.Infrastructure.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("character varying(10)");
 
-                    b.Property<string>("Type")
-                        .IsRequired()
+                    b.Property<int>("Type")
                         .HasMaxLength(50)
-                        .HasColumnType("character varying(50)");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

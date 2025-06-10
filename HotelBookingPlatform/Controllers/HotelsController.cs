@@ -3,6 +3,7 @@ using HotelBookingPlatform.Core.Hotels.Commands;
 using HotelBookingPlatform.Core.Hotels.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using HotelBookingPlatform.Application.Features.Dto;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -14,23 +15,42 @@ public class HotelsController : ControllerBase
     {
         _mediator = mediator;
     }
+    // GET: api/hotels?query=searchTerm
+    [HttpGet]
+    public async Task<ActionResult<List<HotelDto>>> GetHotels([FromQuery] string query = "")
+    {
+        var hotels = await _mediator.Send(new SearchHotels { Query = query });
 
+        var result = hotels.Select(h => new HotelDto
+        {
+            Id = h.Id,
+            Name = h.Name,
+            Description = h.Description,
+            Address = h.Address != null ? new AddressDto
+            {
+                Street = h.Address.Street,
+                City = h.Address.City,
+                Country = h.Address.Country
+            } : null,
+            Rooms = h.Rooms?.Select(r => new RoomDto
+            {
+                Id = r.Id,
+                RoomNumber = r.RoomNumber,
+                PricePerNight = r.PricePerNight,
+                Type = r.Type,
+                Capacity = r.Capacity
+            }).ToList() ?? new List<RoomDto>() // Если Rooms null, возвращаем пустой список
+        }).ToList();
+
+        return Ok(result);
+    }
+
+    // GET: api/hotels/5
     [HttpGet("{id}")]
     public async Task<ActionResult<Hotel>> GetById(int id)
     {
-        var query = new GetHotelById { Id = id };
-        var hotel = await _mediator.Send(query);
-
-        if (hotel == null) return NotFound();
-        return Ok(hotel);
-    }
-
-    [HttpGet("search")]
-    public async Task<ActionResult<List<Hotel>>> Search([FromQuery] string query)
-    {
-        var searchQuery = new SearchHotels { Query = query };
-        var hotels = await _mediator.Send(searchQuery);
-        return Ok(hotels);
+        var result = await _mediator.Send(new GetHotelById { Id = id });
+        return result != null ? Ok(result) : NotFound();
     }
 
     [HttpPost]
@@ -38,7 +58,7 @@ public class HotelsController : ControllerBase
     {
         if (!ModelState.IsValid)
         {
-            return BadRequest(ModelState); // Исправлено с Node1State на ModelState
+            return BadRequest(ModelState); 
         }
 
         var id = await _mediator.Send(command);

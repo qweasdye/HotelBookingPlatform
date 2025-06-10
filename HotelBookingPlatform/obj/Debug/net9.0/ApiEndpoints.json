@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "HotelsController",
+    "Method": "GetHotels",
+    "RelativePath": "api/Hotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HotelBookingPlatform.Application.Features.Dto.HotelDto, HotelBookingPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelsController",
     "Method": "Create",
     "RelativePath": "api/Hotels",
     "HttpMethod": "POST",
@@ -87,31 +113,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelsController",
-    "Method": "Search",
-    "RelativePath": "api/Hotels/search",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "query",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[HotelBookingPlatform.Core.Domain.Entities.Hotel, HotelBookingPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]
