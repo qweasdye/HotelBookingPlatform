@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
@@ -76,22 +77,37 @@ namespace HotelBookingPlatform.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityAlwaysColumn),
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     RoomId = table.Column<int>(type: "integer", nullable: false),
                     GuestName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    GuestEmail = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
-                    TotalPriceAmount = table.Column<decimal>(type: "numeric(18,2)", nullable: false),
-                    TotalPriceCurrency = table.Column<string>(type: "character varying(3)", maxLength: 3, nullable: false, defaultValue: "USD")
+                    GuestEmail = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    TotalAmount = table.Column<decimal>(type: "numeric", nullable: false),
+                    Currency = table.Column<string>(type: "character varying(3)", maxLength: 3, nullable: false),
+                    HotelId = table.Column<int>(type: "integer", nullable: false),
+                    CheckIn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    CheckOut = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    RoomId1 = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Bookings", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Bookings_Hotels_HotelId",
+                        column: x => x.HotelId,
+                        principalTable: "Hotels",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Bookings_Rooms_RoomId",
                         column: x => x.RoomId,
                         principalTable: "Rooms",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Bookings_Rooms_RoomId1",
+                        column: x => x.RoomId1,
+                        principalTable: "Rooms",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -106,9 +122,19 @@ namespace HotelBookingPlatform.Infrastructure.Migrations
                 column: "GuestEmail");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Bookings_HotelId",
+                table: "Bookings",
+                column: "HotelId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Bookings_RoomId",
                 table: "Bookings",
                 column: "RoomId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Bookings_RoomId1",
+                table: "Bookings",
+                column: "RoomId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Rooms_HotelId_RoomNumber",
