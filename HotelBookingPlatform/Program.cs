@@ -20,7 +20,8 @@ builder.Services.AddMediatR(cfg =>
         typeof(Program).Assembly,                      
         typeof(GetHotelById).Assembly,            
         typeof(CreateHotel).Assembly,
-        typeof(UpdateHotel).Assembly
+        typeof(UpdateHotel).Assembly,
+        typeof(DeleteHotel).Assembly
     );
 });
 

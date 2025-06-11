@@ -10,5 +10,8 @@ namespace HotelBookingPlatform.Core.Domain.Entities
         public string GuestName { get; set; }
         public string GuestEmail {  get; set; }
         public Money TotalPrice { get; set; }
+        public Hotel Hotel { get; set; }
+        public DateTime CheckIn { get; set; }
+        public DateTime CheckOut { get; set; }
     }
 }

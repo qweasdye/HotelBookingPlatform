@@ -13,7 +13,7 @@ namespace HotelBookingPlatform.Core.Hotels.Commands
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public AddressDto Address { get; set; }
+        required public AddressDto Address { get; set; }
         public RoomDto Rooms { get; set; }
     }
 
