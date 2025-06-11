@@ -4,6 +4,7 @@ using HotelBookingPlatform.Core.Hotels.Queries;
 using HotelBookingPlatform.Infrastructure.Persistence;
 using HotelBookingPlatform.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<HotelBookingDbContext>(options =>
 builder.Services.AddScoped<IHotelRepository, HotelRepository>();
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+
 
 builder.Services.AddMediatR(cfg =>
 {
@@ -32,6 +34,7 @@ builder.Services.AddControllers()
     {
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
         options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
     });
 

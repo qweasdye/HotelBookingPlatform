@@ -457,9 +457,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "room": {
-            "$ref": "#/components/schemas/Room"
-          },
           "guestName": {
             "type": "string",
             "nullable": true
@@ -473,6 +470,9 @@
           },
           "hotel": {
             "$ref": "#/components/schemas/Hotel"
+          },
+          "room": {
+            "$ref": "#/components/schemas/Room"
           },
           "hotelId": {
             "type": "integer",

@@ -43,15 +43,14 @@ namespace HotelBookingPlatform.Infrastructure.Persistence.Repositories
             var bookingsQuery = _context.Bookings
                 .Include(h => h.Hotel)
                 .Include(r => r.Room)
-                .Include(m => m.TotalPrice)
                 .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(query))
             {
                 bookingsQuery = bookingsQuery.Where(b =>
                     b.Hotel.Name.Contains(query) ||
-                    (b.Room.RoomNumber.Contains(query)) ||
-                    (b.GuestEmail != null && b.GuestEmail.Contains(query)));
+                    b.Room.RoomNumber.Contains(query) ||
+                    b.GuestEmail.Contains(query));
             }
 
             return await bookingsQuery.ToListAsync();

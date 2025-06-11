@@ -55,15 +55,6 @@ namespace HotelBookingPlatform.API.Controllers
             }
         }
 
-        // DELETE: api/bookings/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBooking(int id)
-        {
-            var command = new DeleteBooking(id);
-            await _mediator.Send(command);
-            return NoContent();
-        }
-
         // GET: api/bookings/room/5?checkIn=2023-01-01&checkOut=2023-01-10
         [HttpGet("room/{roomId}")]
         public async Task<ActionResult<BookingResult>> GetBookingsForRoom(
@@ -74,6 +65,15 @@ namespace HotelBookingPlatform.API.Controllers
             var query = new GetBookingsForRoom(roomId, checkIn, checkOut);
             var result = await _mediator.Send(query);
             return Ok(result);
+        }
+
+        // DELETE: api/bookings/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBooking(int id)
+        {
+            var command = new DeleteBooking(id);
+            await _mediator.Send(command);
+            return NoContent();
         }
 
     }
