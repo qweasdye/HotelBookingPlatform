@@ -1453,6 +1453,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "HotelBookingPlatform.Core": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
